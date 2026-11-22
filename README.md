@@ -5,7 +5,7 @@
 The repository is organised into the following SQL scripts and directories:
 
 * **`01_schema.sql`**: Script for creating the relational database, tables, integrity constraints (`PK`, `FK`), and ensuring 3NF normalisation.
-* **`02_individual_queries.sql`**: Contains the 6 required advanced SQL queries (Aggregate with HAVING, multi-table JOINs, LEFT JOIN, CTEs, etc.).
+* **`02_individual_queries.sql`**: Contains the 6 required advanced SQL queries (an aggregate query using GROUP BY and an appropriate filter such as HAVING, an INNER JOIN across at least three related tables, a LEFT JOIN that reveals missing or optional related data, and a subquery, common table expression or UNION-based query.
 * **`03_procedure_and_trigger.sql`**: Script containing the Stored Procedure and the business automation Trigger (including audit logging).
 * **`04_security.sql`**: Role-based access control (RBAC) following the Principle of Least Privilege, password hashing (`SHA2`), and sensitive data encryption.
 * **`05_ERD/`**: Directory containing all database diagrams:
